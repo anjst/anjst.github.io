@@ -6,6 +6,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="./favico.ico" />
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+        defer
+      ></script>
+      <script src="./javascript/script.js"></script>
     </head>
     <body>
         <div class="banner">
@@ -13,11 +18,11 @@
         </div>
         <div class="navbar">
             <ul class="nav">
-                <li><a href="">services</a></li>
-                <li><a href="">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#team">team</a></li>
                 <li><a href="">media</a></li>
                 <li><a href="">blog</a></li>
-                <li><a href="">get in touch</a></li>
+                <li><a href="#contacts">get in touch</a></li>
                 <li><a href=""> - LT</a></li>
             </ul>
         </div>
@@ -35,48 +40,62 @@
         </div>
         <div class="content b">
             <div>
-                <h2>Our services</h2>  
+                <h2 id="services">Our services</h2>  
             </div>  
             <div class="services">
                 <div class="servicep">
-                    <p>CONCEPTS -  Technology as a marketing tool is both necessary and hugely intimidating, but we're easily
-                    dazzled by slick ad campaigns created for a world running in overdrive. We react to them on the most basic level.
-                     Vibrant colors, stunning graphics, and killer headlines stop us in our tracks and capture our imaginations... until
-                      the next thing comes along. That kind of quick-moving strategy has been effective for many businesses.</p>
+                    <p><strong>Audio Visual Consulting.</strong> A strong, positive relationship is at the core of every AV consultation. We work with your architect and design team to answer your questions and understand your goals and considerations.
+                        Our audio visual consulting services begin with an in-depth conversation and a needs- analysis to discover your goals. For existing environments we then examine your environment as well as any existing audio visual systems you have.
+                        From there, we consider your budget and provide you with several design options. Our experts will review all the details of your project and help you decide on the option that’s best for you.</p>
                 </div>
                 <div class="servicep">
-                    <p>CONTENT - Technology as a marketing tool is both necessary and hugely intimidating, but we're easily
-                        dazzled by slick ad campaigns created for a world running in overdrive. We react to them on the most basic level.
-                         Vibrant colors, stunning graphics, and killer headlines stop us in our tracks and capture our imaginations... until
-                          the next thing comes along. That kind of quick-moving strategy.
+                    <p><strong>Trainings</strong>. MSS user training programmes are designed to remove the science from your new systems, giving you the confidence to make the move from adoption to AV systems 
+                        proficiency in no time. Our specialist team of AV systems trainers will put you through a concise, yet thorough training programme that will give everyone the skills to control, conference 
+                        and communicate with ease.
                     </p>
+            
                 </div>
                 <div class="servicep">
-                    <p>MANAGEMENT - Technology as a marketing tool is both necessary and hugely intimidating, but we're easily
-                        dazzled by slick ad campaigns created for a world running in overdrive. We react to them on the most basic level.
-                         Vibrant colors, stunning graphics, and killer headlines stop us in our tracks and capture our imaginations... until
-                          the next thing comes along. That kind of quick-moving strategy.
+                    <p><strong>Content</strong>. Whether you choose to address your global clients or a local market, by including the latest multimedia solutions and video services from MSS, you can communicate with your target audience in 
+                        the most creative and compassionate way. Get access to world-class and professional 2D&3D animations by choosing MSS as your creative design service partner at highly affordable prices to create engaging and memorable videos and 
+                        animations for your business.
                     </p>
+                </div>
+            </div>
+            <div id="punctual" class="servicep">
+                <p>----------</p>
+            </div>
+        </div>
+        <div class="content b">
+            <div class="services">
+                <h2 id="team">Our team</h2>  
+            </div> 
+            <div>     
+                <img src='./css/images/team.jpg'>
+            </div> 
+            <div class="services">
+                <div class="servicep">
+                     <p>We are an international team of industrial + graphic designers, electronics + software engineers,
+                          filmmakers + architects. We work at the boundaries of technology to create transformative experiences
+                           in service of humanity, the planet and our future.
+                    </p>
+                </div>
+                <div id="punctual" class="servicep">
+                    <p>----------</p>
                 </div>
             </div>
         </div>
         <div class="content b">
-            <div>
-                <h2>Our team</h2>  
-            </div> 
-            <div>     
-                <img src='./css/images/team2.jpg'>
+            <div class="services">
+                <h2 id="contacts">Contacts</h2>  
             </div> 
             <div class="services">
                 <div class="servicep">
-                     <p>we are team of blabla. Technology as a marketing tool is both necessary and hugely intimidating, but we're easily
-                        dazzled by slick ad campaigns created for a world running in overdrive. We react to them on the most basic level.
-                        Vibrant colors, stunning graphics, and killer headlines stop us in our tracks and capture our imaginations... until
-                        the next thing comes along. That kind of quick-moving strategy has been effective for many businesses.</p>
+                    <div id="map"></div>
                 </div>
                 <div id="punctual" class="servicep">
-                    <p>--------------------------------------------------------</p>
-               </div>
+                    <p>----------</p>
+                </div>
             </div>
         </div>
         <div>
